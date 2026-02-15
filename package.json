@@ -30,7 +30,7 @@
     "minecraftstatuspinger": "^1.2.2",
     "next": "15.0.3",
     "next-i18next": "^12.1.0",
-    "ping": "^0.4.4",
+    "ping": "^1.0.0",
     "pretty-bytes": "^7.1.0",
     "raw-body": "^3.0.2",
     "react": "19.2.0",
