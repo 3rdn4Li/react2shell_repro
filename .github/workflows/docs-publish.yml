@@ -53,7 +53,7 @@ jobs:
     needs:
       - pre-commit
     steps:
-      - uses: actions/configure-pages@v5
+      - uses: actions/configure-pages@v6
       - uses: actions/checkout@v6
       - uses: actions/setup-python@v6
         with:
