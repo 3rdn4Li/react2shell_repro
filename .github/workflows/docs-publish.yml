@@ -63,7 +63,7 @@ jobs:
       - run: sudo apt-get install pngquant
       - name: Build Docs
         run: uv run --frozen zensical build --clean
-      - uses: actions/upload-pages-artifact@v4
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: site
       - uses: actions/deploy-pages@v4
